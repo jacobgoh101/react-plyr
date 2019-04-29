@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import plyr from 'plyr';
+import plyr from 'plyr/dist/plyr.polyfilled.js';
 
 import difference from 'lodash.difference';
 import pick from 'lodash.pick';
